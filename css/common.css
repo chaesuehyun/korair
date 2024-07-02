@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+body서식
+root변수
+메인컬러
+보조컬러
+*/
+:root{
+  --f_size_11: 0.68rem;
+  --f_size_12: 0.75rem;
+  --f_size_13: 0.81rem;
+  --f_size_16: 1rem;
+  --title_20: 1.25rem;
+  --main_color:#5db9d2 ;
+  --t_color01 : #333 ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body{
+  font-family: "Noto Sans KR",'맑은 고딕', sans-serif,arial;
+  font-size: var(--f_size_13);
+  /* font-weight: weight; */
+  color: var(--t_color01);
+  font-style: normal;
+}
+a{
+  font-family: "Noto Sans KR",'맑은 고딕', sans-serif,arial;
+  color: var(--t_color01);
+  text-decoration: none;
+}
+img{width: 100%;}
+
